@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply py-3 px-5 hover:bg-[#499eff] hover:pl-6 duration-300 ease-out
+     hover:text-white rounded-xl hover:rounded-xl text-xl  capitalize flex flex-row items-center w-full  justify-start gap-5 mb-3;
+  }
+  .heading-1 {
+    @apply text-2xl sm:text-5xl;
+  }
+  .wrapper-section {
+    @apply mx-auto max-w-[1440px] px-8 pb-11 pt-8 w-full sm:w-full lg:px-10 lg:py-16;
+  }
+  .bg-main {
+    @apply bg-[#f0f4f8];
+  }
+  .active {
+    @apply bg-primary text-white;
+  }
+  .dashboard-page {
+    @apply px-4 py-6 lg:px-10 lg:py-12 w-full;
+  }
+}
